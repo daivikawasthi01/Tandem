@@ -1,1 +1,10 @@
+//nvmrc is a simple file used in a project's root directory
+that specifies the exact Node.js required for that project
+
+//allows to use nvm use, or nvm install to install
+instead of manually remembering versions
 v26.0.0
+
+Pin pnpm without Corepack: once you create a root package.json, 
+add "packageManager": "pnpm@10.17.0". 
+It records the version you're using and costs nothing.
